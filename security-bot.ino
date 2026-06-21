@@ -6,16 +6,16 @@
 #include "esp_camera.h"
 #include <UniversalTelegramBot.h>
 #include <ArduinoJson.h>
-const char* ssid = "Indu";
-const char* password = "indu7777";
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_PASSWORD";
 int x=0;
 // Initialize Telegram BOT
-String BOTtoken = "8256967330:AAEt8Xolq8s2cCImiBea36piYNF9CiFfmfY";  // your Bot Token (Get from Botfather)
+String BOTtoken = "YOUR_BOT_TOKEN";  // your Bot Token (Get from Botfather)
 
 // Use @myidbot to find out the chat ID of an individual or a group
 // Also note that you need to click "start" on a bot before it can
 // message you
-String CHAT_ID = "7127751188";
+String CHAT_ID = "YOUR_CHAT_ID";
 
 bool sendPhoto = false;
 int sss=0;
