@@ -32,7 +32,7 @@ void loop()
  if(pval==1)
  {
  
-  Serial.print("7127751188,8256967330:AAEt8Xolq8s2cCImiBea36piYNF9CiFfmfY,Indu,indu7777,Security Alert,1,0,\n");
+ Serial.print("YOUR_CHAT_ID,YOUR_BOT_TOKEN,YOUR_WIFI_NAME,YOUR_WIFI_PASSWORD,Security Alert,1,0,\n");
   delay(10000);
  }
 if(Serial.available())
