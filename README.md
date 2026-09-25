@@ -1,39 +1,51 @@
+
 # 🔐 GuardianEye – Smart Surveillance System
 
+![Arduino IDE](https://img.shields.io/badge/Arduino%20IDE-00979D?logo=arduino&logoColor=white)
+![ESP32-CAM](https://img.shields.io/badge/ESP32--CAM-blue)
+![IoT](https://img.shields.io/badge/Internet%20of%20Things-IoT-orange)
+![Telegram](https://img.shields.io/badge/Telegram-Bot-blue)
+![Wi-Fi](https://img.shields.io/badge/Wi--Fi-Connectivity-green)
 
-📖 Project Overview
+---
 
-GuardianEye is an IoT-based smart surveillance system designed to monitor a secured area and detect movement. It uses a PIR sensor to detect motion and an ESP32-CAM to capture images. The captured images can be sent to an authorized user through a Telegram Bot using Wi-Fi.
-The system also includes a buzzer, LCD display, flash LED, and servo motor to provide security alerts, status information, and door-control functionality.
+## 📖 Project Overview
 
+**GuardianEye** is an IoT-based smart surveillance system designed to detect movement and monitor a secured area.
 
-✨ Key Features
-🚨 Motion Detection – Detects movement using a PIR sensor.
-📸 Image Capture – ESP32-CAM captures the scene when motion is detected.
-📱 Telegram Alerts – Sends captured images to the authorized user through Telegram.
-🔊 Buzzer Alert – Provides an audible security alert.
-💡 Flash LED – Provides additional light for the camera.
-🚪 Door Control – Servo motor provides lock/unlock functionality.
-📟 LCD Display – Displays the current system/PIR status.
-📡 Wi-Fi Connectivity – Enables remote communication through Telegram.
+The system uses a **PIR sensor and ESP32-CAM** to detect motion, capture images, and send security alerts through a **Telegram Bot**. It also includes a buzzer, LCD display, flash LED, and servo motor for security and door-control functions.
 
+---
 
-🛠 Hardware Components
+# ✨ Key Features
 
-| Component                      | Purpose                                          |
-| ------------------------------ | ------------------------------------------------ |
-| **ESP32-CAM**                  | Captures images and provides Wi-Fi communication |
-| **PIR Sensor (HC-SR501)**      | Detects motion                                   |
-| **Arduino / Controller Board** | Controls the PIR sensor and system operations    |
-| **Servo Motor**                | Provides door lock/unlock control                |
-| **LCD Display**                | Displays system and PIR status                   |
-| **Buzzer**                     | Gives an audible security alert                  |
-| **Flash LED**                  | Provides light for the camera                    |
-| **Breadboard**                 | Used for circuit connections                     |
-| **Jumper Wires**               | Connects the components                          |
-| **USB Cable / Power Supply**   | Provides power and programming connection        |
+- 🚨 PIR-based Motion Detection
+- 📸 Image Capture using ESP32-CAM
+- 📱 Telegram Security Alerts
+- 🔊 Buzzer Alert
+- 💡 Flash LED Control
+- 🚪 Servo-based Door Control
+- 📟 LCD Status Display
+- 📡 Wi-Fi Connectivity
+- 🔄 Serial Communication
+- ⚡ Low-Cost IoT Prototype
 
+---
 
+# 🛠 Hardware Components
+
+| **Component** | **Purpose** |
+|---|---|
+| **ESP32-CAM** | Image Capture & Wi-Fi Communication |
+| **PIR Sensor (HC-SR501)** | Motion Detection |
+| **Arduino / Controller** | System Control |
+| **16×2 LCD Display** | Displays System Status |
+| **Servo Motor** | Door Lock Control |
+| **Buzzer** | Security Alert |
+| **Flash LED** | Camera Illumination |
+| **Breadboard & Jumper Wires** | Circuit Connections |
+
+---
 
 # 💻 Software Used
 
@@ -64,10 +76,9 @@ GuardianEye-Smart-Surveillance-System
 └── README.md
 
 
+---
 
-
-⚙️ System Workflow
-
+# ⚙️ System Workflow
 
         👤 Person Approaches
                 │
@@ -115,14 +126,70 @@ GuardianEye-Smart-Surveillance-System
       Normal       Buzzer / Door
                    Control
 
+---
+
+# 📸 Project Preview
+
+## 🔧 Hardware Prototype
+
+<img width="1672" height="941" alt="ChatGPT Image Sep 25, 2026, 05_27_35 PM" src="https://github.com/user-attachments/assets/03c82a72-eb39-4ca5-b08f-3e93414e4458" />
 
 
-📸 Project Preview
+---
+
+## 🚗 Working Prototype
+
+<img width="1536" height="1024" alt="ChatGPT Image Sep 25, 2026, 05_27_26 PM" src="https://github.com/user-attachments/assets/e90c3e5b-c030-4b96-8ada-50346d8fc6b6" />
 
 
-🔧 Hardware Prototype
+---
 
-<img width="1672" height="941" alt="ChatGPT Image Sep 25, 2026, 05_27_35 PM" src="https://github.com/user-attachments/assets/bf80d209-dbc1-48ac-82a6-411e1d57aa58" />
+# 🚀 Technologies Used
 
+* ESP32-CAM
+* Embedded C/C++
+* Arduino IDE
+* IoT
+* PIR Sensor
+* Telegram Bot API
+* Wi-Fi
+* LCD Display
+* Servo Motor
+* Buzzer
 
+---
+
+# 🔮 Future Enhancements
+
+* 📱 Mobile Application
+* ☁️ Cloud Image Storage
+* 🤖 AI-Based Person Detection
+* 👤 Face Recognition
+* 📊 Security Event History
+* 🔐 Advanced Access Control
+
+---
+
+# 🎯 Applications
+
+* Home Security
+* Smart Door Monitoring
+* Office Security
+* College/School Security
+* Restricted Area Monitoring
+* Remote Surveillance
+
+---
+
+# 👩‍💻 Author
+
+**INDIRA KOSARAJU**
+
+B.Tech – CSE(IoT,Cybersecurity & Blockchain Technology)
+
+GitHub: [https://github.com/indira7-kosaraju](https://github.com/indira7-kosaraju)
+
+---
+
+## ⭐ If you found this project helpful, consider giving it a Star!
 
