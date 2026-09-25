@@ -71,10 +71,6 @@ GuardianEye-Smart-Surveillance-System
 ├── security-bot.ino
 ├── security.ino
 │
-├── Images
-│   ├── hardware-prototype.png
-│   └── working-prototype.png
-│
 └── README.md
 ````
 
