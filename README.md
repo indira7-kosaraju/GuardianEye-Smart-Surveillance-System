@@ -1,4 +1,4 @@
-
+````markdown
 # 🔐 GuardianEye – Smart Surveillance System
 
 ![Arduino IDE](https://img.shields.io/badge/Arduino%20IDE-00979D?logo=arduino&logoColor=white)
@@ -13,40 +13,39 @@
 
 **GuardianEye** is an IoT-based smart surveillance system designed to detect movement and monitor a secured area.
 
-The system uses a **PIR sensor and ESP32-CAM** to detect motion, capture images, and send security alerts through a **Telegram Bot**. It also includes a buzzer, LCD display, flash LED, and servo motor for security and door-control functions.
+The system uses a **PIR sensor and ESP32-CAM** to detect motion, capture images, and send security alerts through a **Telegram Bot**. It also includes a **buzzer, LCD display, flash LED, and servo motor** for security and door-control functions.
 
 ---
 
 # ✨ Key Features
 
-- 🚨 PIR-based Motion Detection
-- 📸 Image Capture using ESP32-CAM
-- 📱 Telegram Security Alerts
-- 🔊 Buzzer Alert
-- 💡 Flash LED Control
-- 🚪 Servo-based Door Control
-- 📟 LCD Status Display
-- 📡 Wi-Fi Connectivity
-- 🔄 Serial Communication
-- ⚡ Low-Cost IoT Prototype
+- 🚨 **PIR-based Motion Detection**
+- 📸 **Image Capture using ESP32-CAM**
+- 📱 **Telegram Security Alerts**
+- 🔊 **Buzzer Alert**
+- 💡 **Flash LED Control**
+- 🚪 **Servo-based Door Control**
+- 📟 **LCD Status Display**
+- 📡 **Wi-Fi Connectivity**
+- 🔄 **Serial Communication**
+- ⚡ **Low-Cost IoT Prototype**
 
 ---
 
 # 🛠 Hardware Components
 
-| Component                      | Purpose                                          |
-| ------------------------------ | ------------------------------------------------ |
-| **ESP32-CAM**                  | Captures images and communicates through Wi-Fi   |
-| **PIR Sensor (HC-SR501)**      | Detects human movement                           |
-| **Arduino / Controller Board** | Reads PIR sensor and communicates with ESP32-CAM |
-| **LCD Display**                | Displays system/PIR status                       |
-| **Servo Motor**                | Provides the physical door lock/unlock mechanism |
-| **Buzzer**                     | Provides an audible alert                        |
-| **ESP32-CAM Flash LED**        | Provides illumination for image capture          |
-| **Breadboard**                 | Circuit prototyping                              |
-| **Jumper Wires**               | Component connections                            |
-| **USB Cable / Power Supply**   | Powers and programs the system                   |
-
+| **Component** | **Purpose** |
+|---|---|
+| **ESP32-CAM** | Captures images and communicates through Wi-Fi |
+| **PIR Sensor (HC-SR501)** | Detects human movement |
+| **Arduino / Controller Board** | Reads the PIR sensor and communicates with ESP32-CAM |
+| **LCD Display** | Displays system and PIR status |
+| **Servo Motor** | Provides door lock/unlock control |
+| **Buzzer** | Provides an audible security alert |
+| **ESP32-CAM Flash LED** | Provides illumination for image capture |
+| **Breadboard** | Used for circuit prototyping |
+| **Jumper Wires** | Used for component connections |
+| **USB Cable / Power Supply** | Provides power and programming connection |
 
 ---
 
@@ -77,13 +76,13 @@ GuardianEye-Smart-Surveillance-System
 │   └── working-prototype.png
 │
 └── README.md
-
-
+````
 
 ---
 
-⚙️ System Workflow
+# ⚙️ System Workflow
 
+```text
                 👤 Person Approaches
                         │
                         ▼
@@ -91,7 +90,7 @@ GuardianEye-Smart-Surveillance-System
                 │ PIR Sensor   │
                 └──────┬───────┘
                        │
-                  Motion Detected
+                 Motion Detected
                        │
                        ▼
                 ┌──────────────┐
@@ -107,7 +106,7 @@ GuardianEye-Smart-Surveillance-System
                 └──────┬───────┘
                        │
                   Capture Image
-                       │        
+                       │
                        ▼
                 ┌──────────────┐
                 │ Wi-Fi +      │
@@ -123,16 +122,13 @@ GuardianEye-Smart-Surveillance-System
                 ┌──────┴───────┐
                 │              │
                 ▼              ▼
-           Normal Person   Suspicious/
-                           Unauthorized
+          Normal Person   Suspicious/
+                          Unauthorized
                 │              │
                 ▼              ▼
-              Normal       Buzzer / Door
+             Normal       Buzzer / Door
                            Control
-
-
-
-
+```
 
 ---
 
@@ -140,15 +136,13 @@ GuardianEye-Smart-Surveillance-System
 
 ## 🔧 Hardware Prototype
 
-<img width="1672" height="941" alt="ChatGPT Image Sep 25, 2026, 05_27_35 PM" src="https://github.com/user-attachments/assets/03c82a72-eb39-4ca5-b08f-3e93414e4458" />
-
+<img width="1672" height="941" alt="GuardianEye Hardware Prototype" src="https://github.com/user-attachments/assets/03c82a72-eb39-4ca5-b08f-3e93414e4458" />
 
 ---
 
 ## 🚗 Working Prototype
 
-<img width="1536" height="1024" alt="ChatGPT Image Sep 25, 2026, 05_27_26 PM" src="https://github.com/user-attachments/assets/e90c3e5b-c030-4b96-8ada-50346d8fc6b6" />
-
+<img width="1536" height="1024" alt="GuardianEye Working Prototype" src="https://github.com/user-attachments/assets/e90c3e5b-c030-4b96-8ada-50346d8fc6b6" />
 
 ---
 
@@ -193,11 +187,14 @@ GuardianEye-Smart-Surveillance-System
 
 **INDIRA KOSARAJU**
 
-B.Tech – CSE(IoT,Cybersecurity & Blockchain Technology)
+B.Tech – CSE (IoT, Cybersecurity & Blockchain Technology)
 
-GitHub: [https://github.com/indira7-kosaraju](https://github.com/indira7-kosaraju)
+**GitHub:** [https://github.com/indira7-kosaraju](https://github.com/indira7-kosaraju)
 
 ---
 
 ## ⭐ If you found this project helpful, consider giving it a Star!
+
+```
+
 
