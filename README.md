@@ -1,4 +1,4 @@
-````markdown
+
 # 🔐 GuardianEye – Smart Surveillance System
 
 ![Arduino IDE](https://img.shields.io/badge/Arduino%20IDE-00979D?logo=arduino&logoColor=white)
@@ -194,7 +194,4 @@ B.Tech – CSE (IoT, Cybersecurity & Blockchain Technology)
 ---
 
 ## ⭐ If you found this project helpful, consider giving it a Star!
-
-```
-
 
