@@ -66,69 +66,69 @@ The system uses a **PIR sensor and ESP32-CAM** to detect motion, capture images,
 
 # 📂 Project Structure
 
-ESP32-CAM-Smart-Security
+```text
+GuardianEye-Smart-Surveillance-System
 │
 ├── security-bot.ino
 ├── security.ino
 │
 ├── Images
 │   ├── hardware-prototype.png
-│   ├── working-prototype.png
-│   └── Images.md
+│   └── working-prototype.png
 │
 └── README.md
 
 
+
 ---
 
-# ⚙️ System Workflow
+⚙️ System Workflow
 
-        👤 Person Approaches
-                │
-                ▼
-        ┌──────────────┐
-        │ PIR Sensor   │
-        └──────┬───────┘
-               │
-          Motion Detected
-               │
-               ▼
-        ┌──────────────┐
-        │ Arduino /    │
-        │ Controller   │
-        └──────┬───────┘
-               │
-        Serial Communication
-               │
-               ▼
-        ┌──────────────┐
-        │  ESP32-CAM   │
-        └──────┬───────┘
-               │
-          Capture Image
-               │
-               ▼
-        ┌──────────────┐
-        │ Wi-Fi +      │
-        │ Telegram Bot │
-        └──────┬───────┘
-               │
-               ▼
-        📱 User Receives Photo
-               │
-               ▼
-        User Checks the Photo
-               │
-        ┌──────┴───────┐
-        │              │
-        ▼              ▼
-   Normal Person   Suspicious/
-                   Unauthorized
-        │              │
-        ▼              ▼
-      Normal       Buzzer / Door
-                   Control
-
+                👤 Person Approaches
+                        │
+                        ▼
+                ┌──────────────┐
+                │ PIR Sensor   │
+                └──────┬───────┘
+                       │
+                  Motion Detected
+                       │
+                       ▼
+                ┌──────────────┐
+                │ Arduino /    │
+                │ Controller   │
+                └──────┬───────┘
+                       │
+                Serial Communication
+                       │
+                       ▼
+                ┌──────────────┐
+                │  ESP32-CAM   │
+                └──────┬───────┘
+                       │
+                  Capture Image
+                       │        
+                       ▼
+                ┌──────────────┐
+                │ Wi-Fi +      │
+                │ Telegram Bot │
+                └──────┬───────┘
+                       │
+                       ▼
+                📱 User Receives Photo
+                       │
+                       ▼
+                User Checks the Photo
+                       │
+                ┌──────┴───────┐
+                │              │
+                ▼              ▼
+           Normal Person   Suspicious/
+                           Unauthorized
+                │              │
+                ▼              ▼
+              Normal       Buzzer / Door
+                           Control
 
 
 
