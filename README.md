@@ -34,16 +34,19 @@ The system uses a **PIR sensor and ESP32-CAM** to detect motion, capture images,
 
 # 🛠 Hardware Components
 
-| **Component** | **Purpose** |
-|---|---|
-| **ESP32-CAM** | Image Capture & Wi-Fi Communication |
-| **PIR Sensor (HC-SR501)** | Motion Detection |
-| **Arduino / Controller** | System Control |
-| **16×2 LCD Display** | Displays System Status |
-| **Servo Motor** | Door Lock Control |
-| **Buzzer** | Security Alert |
-| **Flash LED** | Camera Illumination |
-| **Breadboard & Jumper Wires** | Circuit Connections |
+| Component                      | Purpose                                          |
+| ------------------------------ | ------------------------------------------------ |
+| **ESP32-CAM**                  | Captures images and communicates through Wi-Fi   |
+| **PIR Sensor (HC-SR501)**      | Detects human movement                           |
+| **Arduino / Controller Board** | Reads PIR sensor and communicates with ESP32-CAM |
+| **LCD Display**                | Displays system/PIR status                       |
+| **Servo Motor**                | Provides the physical door lock/unlock mechanism |
+| **Buzzer**                     | Provides an audible alert                        |
+| **ESP32-CAM Flash LED**        | Provides illumination for image capture          |
+| **Breadboard**                 | Circuit prototyping                              |
+| **Jumper Wires**               | Component connections                            |
+| **USB Cable / Power Supply**   | Powers and programs the system                   |
+
 
 ---
 
@@ -63,15 +66,15 @@ The system uses a **PIR sensor and ESP32-CAM** to detect motion, capture images,
 
 # 📂 Project Structure
 
-
-GuardianEye-Smart-Surveillance-System
+ESP32-CAM-Smart-Security
 │
 ├── security-bot.ino
 ├── security.ino
 │
 ├── Images
 │   ├── hardware-prototype.png
-│   └── working-prototype.png
+│   ├── working-prototype.png
+│   └── Images.md
 │
 └── README.md
 
@@ -125,6 +128,11 @@ GuardianEye-Smart-Surveillance-System
         ▼              ▼
       Normal       Buzzer / Door
                    Control
+
+
+
+
+
 
 ---
 
